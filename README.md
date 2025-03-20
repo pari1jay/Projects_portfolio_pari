@@ -1,9 +1,9 @@
-# Chicago Transit Authority (CTA) Ridership Trends Dashboard project
-
-## Colab notebook link:
-https://colab.research.google.com/drive/1z_cRI50w-4pjrg7yQVUjmRpdcnYNh98K?authuser=2
+#portfolio projects!!
 
 
+
+
+## Chicago Transit Authority (CTA) Ridership Trends Dashboard project
 ## Dataset:
 
 *data1*-dataset with ridership data for various CTA stations, including station names, monthly ridership data (average weekday, Saturday, Sunday/holiday), and the total ridership for the month. 
