@@ -1,10 +1,42 @@
-#portfolio projects!!
+# portfolio projects!!
 
+## Project: Simple Amazon Price Scraper with CSV Logging
+### Objective:
+Automate the process of extracting the price and title of an Amazon product and store the data in a CSV file. The script runs continuously at regular intervals (once every 24 hours) to track price changes over time.
+
+### Steps Involved:
+**1. Connect to the Website:**
+
+Use the requests library to send a GET request to the Amazon product page.\
+Use custom headers to mimic a browser visit and avoid being blocked.\
+
+**2. Parse HTML Data:**
+
+Use BeautifulSoup to parse and prettify the HTML content.\
+Extract the product title and price using the appropriate HTML tags and IDs.\
+
+**3. Clean and Validate Data:**
+
+Remove unnecessary whitespace from the title and price.\
+Remove the dollar sign ($) from the price to keep it clean.\
+
+**4. Write Data to CSV:**
+
+Create or append data to a CSV file named AmazonWebScraperDataset.csv.\
+Add a header (Title, Price, Date) if the file is new.\
+Append new data with each run to log price changes.\
+
+
+
+## Outputs:
+- Writes product title, price, and the current date to AmazonWebScraperDataset.csv.\
+- Logs errors or missing data if extraction fails.\
+- Continuous Monitoring:\
 
 
 
 ## Chicago Transit Authority (CTA) Ridership Trends Dashboard project
-## Dataset:
+### Dataset:
 
 *data1*-dataset with ridership data for various CTA stations, including station names, monthly ridership data (average weekday, Saturday, Sunday/holiday), and the total ridership for the month. 
 
