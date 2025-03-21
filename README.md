@@ -1,7 +1,7 @@
 # portfolio projects!!
 **1. Project: Simple Amazon Price Scraper with CSV Logging**\
-**2. Chicago Transit Authority (CTA) Ridership Trends Dashboard project**
-
+**2. Chicago Transit Authority (CTA) Ridership Trends Dashboard project**\
+**3. Healthcare EDA project**
 
 
 ## Project: Simple Amazon Price Scraper with CSV Logging
