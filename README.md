@@ -1,10 +1,10 @@
 # portfolio projects!!
-**1. Project: Simple Amazon Price Scraper with CSV Logging**\
+**1. Amazon Price Scraper with CSV Logging**\
 **2. Chicago Transit Authority (CTA) Ridership Trends Dashboard project**\
 **3. Healthcare EDA project**
 
 
-## Project: Simple Amazon Price Scraper with CSV Logging
+## 1. Amazon Price Scraper with CSV Logging
 ### Objective:
 Automate the process of extracting the price and title of an Amazon product and store the data in a CSV file. The script runs continuously at regular intervals (once every 24 hours) to track price changes over time.
 
@@ -39,7 +39,7 @@ Append new data with each run to log price changes.\
 
 
 
-## Chicago Transit Authority (CTA) Ridership Trends Dashboard project
+## 2. Chicago Transit Authority (CTA) Ridership Trends Dashboard project
 ### Dataset:
 
 *data1*-dataset with ridership data for various CTA stations, including station names, monthly ridership data (average weekday, Saturday, Sunday/holiday), and the total ridership for the month. 
@@ -56,7 +56,7 @@ ADA: ADA accessibility (TRUE/FALSE)\
 RED, BLUE, G, BRN, P, Pexp, Y, Pnk, O: Indicator columns for which lines pass through the station (True for presence, False for absence)\
 Location: Coordinates (latitude, longitude)\
 
-## What can be explored with this dataset?
+### What can be explored with this dataset?
 **1. Accessibility Analysis**
 Objective: Analyze ADA accessibility across different stations and stops.
 Description: Using the "ADA" column, create a map or dashboard to visualize which stations are ADA-compliant and which are not. You can perform a spatial analysis to identify areas with high or low accessibility, and create recommendations for improving accessibility at stations that lack ADA features.
